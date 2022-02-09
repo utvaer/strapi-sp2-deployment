@@ -13,6 +13,9 @@ To deploy this project on Heroku, you'll need:
 - An Heroku account (Free)
 - A Cloudinary account for hosting your assets (Free)
 
+## Semester Project 2
+Once you've deployed the site, you'll create an administrator, and then add your products and home banner. You also need to update the permissions for public and authenticated users. Set public to find and findone, and for authenticated users ensure they have full permissions for the application. To update permissions go to Settings > Users & Permissions plugin  > Roles.
+
 ## Database
 
 This project will use the [postgresql Heroku addons](https://elements.heroku.com/addons/heroku-postgresql). The database configuration can be found in the `config/database.js` file. Using the existing configuration means that you project will also use the production postgresql database when running locally on your machine.
