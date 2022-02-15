@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "Products"
+    "name": "Products",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,13 +30,23 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "image_url": {
       "type": "string"
     },
     "featured": {
       "type": "boolean"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    },
+    "image_alt": {
+      "type": "string"
     }
   }
 }
