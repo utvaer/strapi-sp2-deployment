@@ -1,3 +1,5 @@
+OBS Added personal info:
+
 # Strapi Heroku Deploy Button
 
 This repository contains a basic Strapi application which is quickly and easily deployable on Heroku through a one-click deploy button
@@ -14,7 +16,8 @@ To deploy this project on Heroku, you'll need:
 - A Cloudinary account for hosting your assets (Free)
 
 ## Semester Project 2
-Once you've deployed the site, you'll create an administrator, and then add your products and home banner. You also need to update the permissions for public and authenticated users. Set public to find and findone, and for authenticated users ensure they have full permissions for the application. To update permissions go to Settings > Users & Permissions plugin  > Roles.
+
+Once you've deployed the site, you'll create an administrator, and then add your products and home banner. You also need to update the permissions for public and authenticated users. Set public to find and findone, and for authenticated users ensure they have full permissions for the application. To update permissions go to Settings > Users & Permissions plugin > Roles.
 
 ## Database
 
